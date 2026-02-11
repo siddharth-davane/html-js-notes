@@ -1,0 +1,89 @@
+body{
+  background-color:#FFC064;
+  margin:0;
+}
+header{
+  background-color:#FFC064;
+  text-align:center;
+  font-size:7svh;
+  font-family:cursive;
+  border-bottom:solid black 2px;
+  height: 10svh;
+  width : 100svw;
+  position:fixed;
+  top:0;
+  left:0;
+}
+button{
+  background-color:#ffc064;
+}
+main{
+  background-color:#FFC064;
+  text-align:center;
+  height: 90svh;
+  width : 100svw;
+  position:fixed;
+  top:10svh;
+  left:0;
+}
+
+#sidebar{
+  display:none;
+  background-color:#CD803090;
+  position:fixed;
+  top:10svh;
+  left:0;
+  height:90vh;
+  width :150px;
+  z-index:10;
+}
+#sidebarVoid{
+  height:100svh;
+  width:100svw;
+  position:fixed;
+  top:0;
+  left:150px;
+  background:transparent;
+  Border:none;
+}
+
+#sidebar *{
+  padding:3px;
+  margin:2px;
+  margin-left:0;
+  display:block;
+}
+
+
+#openSidebarBtn,
+#closeSidebarBtn{
+  background-color:#ffc064;
+  font-size:7svh;
+  width: 10svh;
+  height:10svh;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:9;
+}
+#addNote, #closeEditor{
+  background-color:#ffc064;
+  font-size:7svh;
+  width: 10svh;
+  height:10svh;
+  display:block;
+  position:fixed;
+  top:0;
+  right:0;
+  z-index:9;
+}
+#editor{
+  display:none;
+  height:90svh;
+  width:100svw;
+  position:fixed;
+  top:10svh;
+  left:0;
+  border-top: 1svh black solid;
+  background:#FFE286;
+}
