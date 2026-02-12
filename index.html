@@ -9,7 +9,7 @@
   </head>
   <body>
     <button id="openSidebarBtn">=</button>
-    <button id="addNote">+</button>
+    <button id="openEditor">+</button>
     <header>
       Notes
     </header>
@@ -27,7 +27,9 @@
       </div>
       <div id="editor">
         <button id="closeEditor">X</button>
-        Hello
+        <textarea id="noteTitle" placeholder="Note Title" ></textarea>
+        <textarea id="noteBody" placeholder="Write a note..." ></textarea>
+        <button id="noteSave">Save!</button>
       </div>
         
     </main>
@@ -38,6 +40,7 @@
       Because the ids aren't defined in the DOM yet.
     -->
     <script src="eruda.js" type="text/javascript"></script>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="notesLogic.js" type="text/javascript"></script>
+    <script src="buttonEvents.js" type="text/javascript"></script>
   </body>
 </html>

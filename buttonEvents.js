@@ -4,7 +4,7 @@ const sidebar = document.getElementById("sidebar");
 const sidebarVoid = document.getElementById("sidebarVoid");
 const fs = document.getElementById("fs");
 const reload = document.getElementById("reload");
-const addNote = document.getElementById("addNote");
+const openEditor = document.getElementById("openEditor");
 const editor = document.getElementById("editor");
 const closeEditor = document.getElementById("closeEditor");
 const erudaBtn = document.getElementById("erudaBtn");
@@ -26,15 +26,15 @@ function sidebarVisible(action){
     sidebar.style.display="none";
   }
 }
-function showEditor(action){
+function toggleEditor(action){
   if(action==1){
     editor.style.display="inline";
-    addNote.style.display="none";
+    openEditor.style.display="none";
 
   }
   else{
     editor.style.display="none";
-    addNote.style.display="inline";
+    openEditor.style.display="inline";
   }
 }
 
@@ -45,11 +45,11 @@ closesidebar.addEventListener("click", () => sidebarVisible(0));
 sidebarVoid.addEventListener("click", () => sidebarVisible(0));
 fs.addEventListener("click", () => toggleFS());
 reload.addEventListener("click", () => window.location.reload());
-addNote.addEventListener("click", () => showEditor(1));
-closeEditor.addEventListener("click", () => showEditor(0));
+openEditor.addEventListener("click", () => toggleEditor(1));
+closeEditor.addEventListener("click", () => toggleEditor(0));
+noteSave.addEventListener("click", () => saveNote());
 
 //DEBUG:
 //start console button
 erudaBtn.addEventListener("click", () => eruda.init());
-
 

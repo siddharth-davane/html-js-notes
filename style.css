@@ -58,19 +58,19 @@ main{
 #openSidebarBtn,
 #closeSidebarBtn{
   background-color:#ffc064;
-  font-size:7svh;
-  width: 10svh;
-  height:10svh;
+  font-size:3svh;
+  width: 7svh;
+  height:7svh;
   position:fixed;
   top:0;
   left:0;
   z-index:9;
 }
-#addNote, #closeEditor{
+#openEditor, #closeEditor{
   background-color:#ffc064;
-  font-size:7svh;
-  width: 10svh;
-  height:10svh;
+  font-size:3svh;
+  width: 7svh;
+  height:7svh;
   display:block;
   position:fixed;
   top:0;
@@ -85,5 +85,21 @@ main{
   top:10svh;
   left:0;
   border-top: 1svh black solid;
-  background:#FFE286;
+  background:#FFa246;
+}
+
+#noteTitle{
+  width:80%;
+  height:6%;
+  resize:none;
+  overflow:hidden;
+  display:block;
+  margin:0 auto 0 auto;
+}
+#noteBody{
+  width:80%;
+  height:80%;
+  resize:none;
+  display:block;
+  margin:1% auto 1% auto;
 }
