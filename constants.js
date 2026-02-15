@@ -1,16 +1,25 @@
 //Buttons
-const opensidebar = document.getElementById("openSidebarBtn");
-const closesidebar = document.getElementById("closeSidebarBtn");
-const sidebar = document.getElementById("sidebar");
-const sidebarVoid = document.getElementById("sidebarVoid");
-const fs = document.getElementById("fs");
-const reload = document.getElementById("reload");
-const openEditor = document.getElementById("openEditor");
-const editor = document.getElementById("editor");
-const noteSave= document.getElementById("noteSave");
-const closeEditor = document.getElementById("closeEditor");
-const erudaBtn = document.getElementById("erudaBtn");
+const 
+  opensidebar = document.getElementById("openSidebarBtn"),
+  closesidebar = document.getElementById("closeSidebarBtn"),
+  sidebar = document.getElementById("sidebar"),
+  sidebarVoid = document.getElementById("sidebarVoid"),
+  fs = document.getElementById("fs"),
+  autoFSbtn = document.getElementById("autoFS");
+  reload = document.getElementById("reload"),
+  openEditor = document.getElementById("openEditor"),
+  editor = document.getElementById("editor"),
+  noteSave= document.getElementById("noteSave"),
+  closeEditor = document.getElementById("closeEditor"),
+  erudaBtn = document.getElementById("erudaBtn"),
 
 //Editor
-const noteTitle = document.getElementById("noteTitle");
-const noteBody= document.getElementById("noteBody");
+  noteTitle = document.getElementById("noteTitle"),
+  noteBody= document.getElementById("noteBody"),
+
+//alerts
+  FSalert= document.getElementById("FSalert"),
+
+//Misc
+  noteArrayVersion = 0.01;
+  

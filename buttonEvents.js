@@ -7,6 +7,8 @@ reload.addEventListener("click", () => window.location.reload());
 openEditor.addEventListener("click", () => toggleEditor(1));
 closeEditor.addEventListener("click", () => toggleEditor(0));
 noteSave.addEventListener("click", () => addNewNote());
+autoFSbtn.addEventListener("click", () => autoToggleFS());
+
 
 //DEBUG:
 //start console button

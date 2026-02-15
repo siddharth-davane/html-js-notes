@@ -14,6 +14,7 @@ header{
   top:0;
   left:0;
 }
+
 button{
   background-color:#ffc064;
 }
@@ -86,6 +87,24 @@ main{
   left:0;
   border-top: 1svh black solid;
   background:#FFa246;
+}
+
+#FSalert{
+  display: none;
+  position:fixed;
+  bottom:0;
+  left:0;
+  height:auto;
+  width:auto;
+  font-family:arial;
+  padding:1svh;
+  border: solid black 1px;
+  border-radius: 3svh;
+  z-index:10;
+}
+
+#autoFS{
+  color:red;
 }
 
 #noteTitle{
