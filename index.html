@@ -21,15 +21,18 @@
       <button id="sidebarVoid"></button>
     </div>
     <main>
-      <div id="noNotesErr">
-        You have no notes<br>
-        Add a note using the + button.
-      </div>
       <div id="editor">
         <button id="closeEditor">X</button>
         <textarea id="noteTitle" placeholder="Note Title" ></textarea>
         <textarea id="noteBody" placeholder="Write a note..." ></textarea>
         <button id="noteSave">Save!</button>
+      </div>
+      <div id="noteList">
+        <div id="noNotesErr">
+          You have no notes<br>
+          Add a note using the + button.
+        </div>
+
       </div>
         
     </main>
@@ -40,7 +43,8 @@
       Because the ids aren't defined in the DOM yet.
     -->
     <script src="eruda.js" type="text/javascript"></script>
-    <script src="notesLogic.js" type="text/javascript"></script>
+    <script src="constants.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
     <script src="buttonEvents.js" type="text/javascript"></script>
   </body>
 </html>
